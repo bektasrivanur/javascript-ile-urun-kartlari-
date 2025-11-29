@@ -1,0 +1,69 @@
+/*Kendi yüklediğim font için*/
+@font-face {
+  font-family: font;
+  src: url(Foremost\ Regular.ttf);
+}
+/*Her şeyin ortada olamsı için*/
+body {
+  text-align: center;
+  background-color: #E59D2C;
+  font-family: font;
+  font-size: xx-large;
+  color: #F3D58D;
+  text-shadow: 0 0 5px #000000;
+}
+/*İnput için*/
+#ad {
+  width: 50px;
+  height: 25px;
+  border-radius: 8px;
+  font-family: font;
+}
+/*Buton için*/
+#buton {
+  width: 150px;
+  height: 50px;
+  background: #E59D2C;
+  border-radius: 8px;
+  font-family: font;
+  font-size: large;
+  color: #F3D58D;
+  text-shadow: 0 0 5px #000000;
+}
+/*Kart Alanı*/
+#kartAlani {
+  display: inline-block;
+  gap: 15px;
+  align-items: center;
+}
+/*Kartların css'i*/
+.kart {
+  background: #EBDDC5;
+  width: 180px;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #000000;
+  display: inline-block;
+  text-align: center;
+}
+/*Pahalı kartların css'i*/
+.pahali {
+  background: #2E4365;
+  color: #8A3B08;
+}
+/*Kart fotograflarının css'i*/
+.kart img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+/*Pahalı kartların fotografları sorun yaotığı için ikisini ayırdım*/
+.pahali img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
