@@ -1,13 +1,8 @@
-/*Kendi yüklediğim font için*/
-@font-face {
-  font-family: font;
-  src: url(Foremost\ Regular.ttf);
-}
 /*Her şeyin ortada olamsı için*/
 body {
   text-align: center;
   background-color: #E59D2C;
-  font-family: font;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: xx-large;
   color: #F3D58D;
   text-shadow: 0 0 5px #000000;
